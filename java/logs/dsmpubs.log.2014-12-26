@@ -1,0 +1,25 @@
+[INFO] 2014-12-26 01:00:00,392 DSMPubs main - main entry point.
+[INFO] 2014-12-26 01:00:00,782 DSMPubs main - uid:1
+[INFO] 2014-12-26 01:00:00,782 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Anesthesiology+AND+(General+Pharmacology+OR+Neurosurgical+Care+OR+Obstetrical+Anesthesiology+OR+Pediatric+Anesthesiology)AND+2014/12/25:2014/12/26[Publication%20Date]
+[INFO] 2014-12-26 01:00:01,765 DSMPubs main - idlist:25241060
+[INFO] 2014-12-26 01:00:01,780 DSMPubs main - idlist audited:25241060
+[INFO] 2014-12-26 01:00:01,780 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25241060&retmode=xml
+[INFO] 2014-12-26 01:00:05,134 DSMPubs alertuser - Emailed:nick@masomurray.com
+[INFO] 2014-12-26 01:00:05,134 DSMPubs main - uid:7
+[INFO] 2014-12-26 01:00:05,134 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Coronary+Artery+Disease+OR+Heart+Failure+OR+Hypertension+OR+Valvular+Disease)AND+2014/12/25:2014/12/26[Publication%20Date]
+[INFO] 2014-12-26 01:00:05,244 DSMPubs main - idlist:
+[INFO] 2014-12-26 01:00:05,244 DSMPubs main - uid:8
+[INFO] 2014-12-26 01:00:05,244 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Arrhythmias+Electrophysiology+&+Pacing)AND+2014/12/25:2014/12/26[Publication%20Date]
+[INFO] 2014-12-26 01:00:05,322 DSMPubs main - idlist:25496985,25479336,25431284,25417228,25389648,25382031,25378469,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024
+[INFO] 2014-12-26 01:00:05,337 DSMPubs main - idlist audited:25496985,25479336,25431284,25417228,25389648,25382031,25378469,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024
+[INFO] 2014-12-26 01:00:05,337 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25496985,25479336,25431284,25417228,25389648,25382031,25378469,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024&retmode=xml
+[INFO] 2014-12-26 01:00:07,880 DSMPubs alertuser - Emailed:lreines@erols.com
+[INFO] 2014-12-26 01:00:07,880 DSMPubs main - uid:9
+[INFO] 2014-12-26 01:00:07,880 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Arrhythmias+Electrophysiology+&+Pacing)AND+2014/12/25:2014/12/26[Publication%20Date]
+[INFO] 2014-12-26 01:00:07,974 DSMPubs main - idlist:25496985,25479336,25431284,25417228,25389648,25382031,25378469,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024
+[INFO] 2014-12-26 01:00:07,989 DSMPubs main - idlist audited:25496985,25479336,25431284,25417228,25389648,25382031,25378469,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024
+[INFO] 2014-12-26 01:00:07,989 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25496985,25479336,25431284,25417228,25389648,25382031,25378469,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024&retmode=xml
+[INFO] 2014-12-26 01:00:10,563 DSMPubs alertuser - Emailed:gnaccarelli@hmc.psu.edu
+[INFO] 2014-12-26 01:00:10,563 DSMPubs main - uid:10
+[INFO] 2014-12-26 01:00:10,563 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Dermatology+AND+(Acne-like+Disorders+OR+Acquired+&+Inherited+Bullous+Disorders+OR+Atopic+Dermatitis+&+Other+Forms+of+Eczema+OR+Cutaneous+Signs+of+Systemic+Disease+OR+Dermatologic+&+Cosmetic+Surgery+OR+Dermatologic+Pathology+OR+Drug+Eruptions+OR+Hair+Diseases+OR+Nail+Diseases+OR+Pediatric+Skin+Diseases+(incl.+Genetic+Diseases)+OR+Photodermatology+&+Skin+Aging+OR+Pigmentary+Disorders+OR+Psoriasis+&+Other+Inflammatory+Diseases+OR+Skin+Cancers+(incl.+Melanoma+&+Lymphoma)+OR+Skin+Infections+(incl.+STDs)+OR+Urticaria+Vasculitis+&+Connective+Tissue+Disease)AND+2014/12/25:2014/12/26[Publication%20Date]
+[INFO] 2014-12-26 01:00:10,641 DSMPubs main - idlist:25536593,25536452,25536444,25536144,25536074,25536022,25536002,25535821,25535770,25535693,25535660,25535460,25535422,25535336,25535318,25535166,25534985,25534715,25534474,25534454

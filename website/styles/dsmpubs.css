@@ -1,0 +1,610 @@
+
+html {height:100%;}
+
+body  { position:relative;
+       /* height: 100%; */
+        display: block;
+       }
+
+.bodycontainer {	position:relative;
+				width:90%;
+				max-width:900px;
+				min-width:600px;
+				display: block;
+				background: #CDC;
+		        margin-top:4px;
+				margin-left: auto;
+				margin-right: auto;
+				padding-left:20px;
+				padding-right:20px;
+				margin-bottom:12px;
+			   }
+
+
+			   
+
+.clear{clear:both;}
+
+a img{border:0px;}
+
+
+/*Global Header Starts*/
+
+.header_body{padding-top:4px; }
+
+.header_top{position:relative;
+			margin-top:4px; 
+			height:80px; 
+			background:#1d07c3; 
+			}
+
+.logo{  padding:20px 0 0px 15px;
+		float:left;}
+
+.h_right{float:right;
+		max-width:840px;
+		padding:0px 0 0;}
+
+.pannel_right{float:right; 
+						background: url("../images/toplogin_bg.jpg") top right repeat-x;
+						min-height: 32px;
+						padding-top: 5px;
+					} 
+
+.pannel_right li{display:inline-block;}		
+					
+.navbg{padding:0px;
+		margin:0px auto 0;
+		height:27px; 
+		background:url(styles/images/menubg.jpg) 0 0 repeat-x #2349b6;
+		}
+		
+.nav { float:right; 
+		max-width:610px;
+		} 
+
+.nav_right{float:right;} 
+
+.header-nav {  display:inline-block;
+                border: solid 1px #999;
+                padding: 2px;
+				margin:0px auto 0;
+				height:27px; 
+				width:100%;
+				font: bold 12px Verdana;
+                text-align: center;
+                color: #FFF;
+				background:url(/styles/images/bggreen27.png)  ;
+                }
+
+ .header-nav ul{ list-style: none;
+ 				float:right;
+                padding:0;
+                margin:2px 0px 0px 0px;
+				font: 20px "Tahoma, sans-serif";
+				text-transform:uppercase;
+               }
+
+ .header-nav li{  display: inline-block;
+                margin: 0 0.5em 0 0;
+				width:140px;
+				text-align:center;
+				cursor:pointer;
+				float:left;
+				background:none;
+				padding:0;
+               }
+
+ .header-nav li:hover {				
+					color:#fff;
+					background:#59b338;
+                    }
+
+ .header-nav li.active{
+					  background: #DDE;
+					  border:none;
+					}
+
+/* reg page */
+
+/* tabs container, below header */
+#tabcontent {width:100%;
+			height:100%
+			}
+
+#tabsplash {display: block;}
+
+.splash { position:relative;
+			height:100%;
+			min-height:600px;
+			margin-top:40px;
+			font-weight:400;
+			font-family:tahoma, sans-serif;
+			font-size: 12px; 
+			color: #181; 
+			line-height: 30px;	
+			background: #CDC;
+			background-image:url('images/splash_bg.png');
+			background-position: 16px 86px;
+			background-repeat: no-repeat;
+	
+	}
+
+.splash .banner {position:relative;
+				margin-top:-14px;  /*override default content page */
+				
+				font-family: tahoma, sans-serif;
+				font-size:19px;
+				}
+
+.splash  .content{ position:relative;
+				  top:80px;
+				  left:15%;
+				  font-family:Georgia;
+				  font-style: italic;
+				  letter-spacing: .025em;
+	              color: #36A;
+				  width:72%;  /* keep from overflowing container vene tho there is no visual display */
+				}
+				
+.splash  .imgtr {position:absolute;
+				top:0px;
+				right:-18px;
+				}				
+				
+.splash  .content span { position:relative;
+					   display:block;
+					   left: -20px;
+					   font-size:32px;
+					   font-style: italic;
+	  				   font-weight:600;
+					   letter-spacing: .025em;
+					  
+						}
+
+.splash  .content ul {	position:relative;
+					top:-4px;
+					font-size: 16px;
+					color: #249;
+					}
+					
+.splash .footer {position:absolute;
+				top: 88%;
+				left:-20px;
+				font-family: arial, sans-serif;
+				font-size:14px;
+				font-style:italic;
+				font-weight: 600;
+				letter-spacing:.02em;
+				color:#060;
+				background:#CDC;
+				width:104%;
+				}
+
+.splash .footer p {line-height:16px; 
+				 margin-top:-4px;
+				 margin-bottom:16px; /* match line-height, expand container */
+				 margin-left:3%;
+				}		
+
+.splash .submit {position:relative;
+				height:34px;
+				width: 160px;
+				font-family:tahoma;
+				font-size:19px;
+				color:#181;
+				top:82px;
+				left:320px;
+				background-color:transparent;
+				border:outset 3px #9A9;
+				cursor: pointer;
+				}
+				
+
+#tablogin {display: none;}
+
+/* upon register display registration confirmation message with login page  */
+/* the page is the logon tab, same classes and layout, with usermessage id #regconfmsg added */
+#tabregisterconfirm {display: none;}
+#regconfmsg {float:left;
+			margin-top: 60px;
+			margin-bottom:60px;
+			margin-left:100px;
+			width:65%;
+			font-size:1.5em;
+			color:#464;
+            }
+#tabregisterconfirm .login{ top:0px;}			
+
+
+/* tablogin uses the splash class for the page's window dressing  */
+
+.login {position:relative;
+		top:160px;
+		left:140px;
+		height:220px;
+		width:600px;
+		font-weight:400;
+		font-family:tahoma, sans-serif;
+		font-size: 12px; 
+		color: #181; 
+		line-height: 30px;	
+		}
+	
+.login span { display:inline-block;
+				width:200px;
+				text-align:right;
+				margin-right:6px;
+				}
+				
+.login input {width:200px;
+			height:16px;
+			border:solid 1px #464;
+			}
+			
+.login .submit {	position:relative;
+				height:34px;
+				width: 160px;
+				font-family:tahoma;
+				font-size:19px;
+				color:#181;
+				top:16px;
+				left:228px;
+				background-color:transparent;
+				border:outset 3px #9A9;
+				cursor: pointer;
+				}		
+	
+	
+#tabprofile {display: none;}
+
+.profile { position:relative;
+			height:100%;
+			min-height:600px;
+			margin-top:40px;
+			font-weight:400;
+			font-family:tahoma, sans-serif;
+			font-size: 12px; 
+			color: #181; 
+			line-height: 30px;	
+			background: #CDC;
+		}
+
+#tabpubs {display: none;}
+
+.pubs { position:relative;
+			height:100%;
+			min-height:600px;
+			margin-top:40px;
+			font-weight:400;
+			font-family:tahoma, sans-serif;
+			font-size: 12px; 
+			color: #181; 
+			line-height: 30px;	
+			background: #CDC;
+		}
+
+/* =============== registration tab: users register an email to recieve new-article alerts and select serach terms ================= */
+/*        Reg tab inlcudes an advanced search.  Markup is at bottom of page with pre-populated columns of serach terms.
+          advanced search div default is display:none; position:absolute; whne disply:block advanced search flots on top of reg page.
+          alternatively there is a js function to automate population of advanced search terms. both take about the same time to load
+*/
+		  
+#tabregister {display: none;}
+
+ .register {display:none;
+			position:relative;
+			height:100%;
+			margin-top:40px;
+			margin-bottom:20px;
+			font-weight:400;
+			font-family:tahoma, sans-serif;
+			font-size: 12px; 
+			color: #181; 
+			line-height: 24px;	
+			background: #CDC;
+	
+			}
+			
+ .register  .usermsg {margin:0px 0px 20px 80px; 
+					color: #575; 
+					font-family: Arial, sans-serif;
+					line-height: 20px;
+				  }
+
+				  
+ .register .search{ display:block;
+					position:relative;
+					/*float:left;*/
+					/*width:47%;*/
+					margin:0px 12px 12px 12px;
+					font-size:1.1em;
+					text-align: center;
+				  }
+				  
+ .register  .datafields{margin-left:100px;}
+
+				  
+ .register .chkboxes{ margin-top:40px;
+					margin-right:0px;
+					margin-bottom:0px;
+					margin-left:180px;
+					line-height:20px;
+					}	
+
+  /* togglesearch() moves registration check boxes to bottom of advanced search when exposing advanced search widget by attaching this class */
+ .chkboxesadv { margin-top:420px;
+ 			   margin-right:0px;
+ 			   margin-bottom:0px;
+ 			   margin-left:180px;
+ 			   line-height:20px;
+			 }					
+
+ .register .chkboxes input,
+  .register .chkboxesadv input{width:12px; height:12px;}
+					
+ .register .chkboxes div {width:90%;
+						min-width:580px;
+						}
+
+					
+ .register span { display:inline-block;
+				width:200px;
+				text-align:right;
+				margin-right:6px;
+				}
+
+
+
+/* ============ base search: the basic search box is always exposed and offers a dropdown of topic-categories and an open-neded text box for user-defined search terms ========== */
+/*              advanced search is an absolute that floats on top of base search and pushes down the submit button and attendant checkboxes
+*/
+
+ .register .search.specialty {display:inline-block; background:#C6DFC6; width:47%; height:60px; vertical-align:top;margin-right:auto;margin-left:auto;}
+ .register .search.terms {display:inline-block; background:#C6DFC6; width:47%; height:60px; vertical-align:top; margin-right:auto;margin-left:auto;}				
+ 
+ 
+ /* subspecialty selection */
+ .register .search.terms ul {	display:none;
+							border:solid 1px #000;
+							background: #FFF;
+							text-align:left;
+							margin-top:0px;
+							margin-left:-50px;
+							padding-bottom: 8px; /* compensate for li margin-bottom-8px */
+							z-index:200;
+						}
+  
+  
+  .register .search.terms li {	margin-bottom:-8px;
+							list-style-type: none;
+							line-height:12px;
+							padding:6px 0;
+							}
+							
+ .register .search.terms li  input[type=checkbox] {display: inline-block;
+										width:12px;
+										height:12px;
+										margin:0px 8px 0px -28px;
+										padding:0px;
+										}
+										
+	/* save button at bottom of subspecialty-select */									
+	.register .search.terms li a	{font-size:1.1em;
+								margin-left:60px;
+								color: blue;
+								text-decoration:underline;
+								cursor:pointer;
+								font-weight:900;
+								}
+								
+ /* display the selected sub-specialties */	
+ .register .search.terms .subspecs{ display:none;
+									margin-left:-60px;
+									margin-top:3px;
+									width:85%;
+									line-height:17px;
+									min-width:200px;
+									background:#FFF;
+									border:solid 1px #000;
+								}
+								
+.register .search.terms .subspecs ul{ display:block; border:none; background:none; margin-left:-12px;}  /* override subspecialty select list */
+.register .search.terms .subspecs li{ list-style-type: circle;} 
+
+ .basesearch{ /* float:left; */
+				width:100%;
+				min-height:114px;
+				background:#C6DFC6; 
+				margin-bottom:20px;}
+  
+ .basesearch div{color:#242;}
+ 
+ .register input { width:220px;
+				margin-left:20px;
+				height:16px;
+				border:solid 1px #464;
+				}
+
+  /* override this register-class input left-alignemnt */
+ #regterms {margin-left:-90px; width:65%; min-width:200px;}				
+				
+ .register select {width:65%;
+				min-width:200px;
+				height:20px;
+				margin-left:23%;
+				border:solid 1px #464;
+				}
+				
+ #regspecialty option:first{color:999;}
+ 
+ /* =========  selected search terms display: parent and child divs height:100%; ============== */
+ /*  js auto-pops child divs with dsmpubs.search.tmparr[[],[]...] vals
+     if no vals in tmparr[] then height:100% = 0px
+*/
+
+ /*  saveadvsearch() adds a styel to a containing div 200% width to span page. these child divs are 97% of the container */
+ .basesearch .search.selterms div {line-height:16px;
+								letter-spacing:.4px;
+								 width: 97%;
+								margin: 4px  12px;
+								padding:0px 6px;
+								background:#CDC;
+								font-family: Arial, sans-serif;
+								font-size:.9em;
+								font-weight:600;
+								letter-spacing:1px;
+								color:#575;
+								text-align:left;
+								border: solid 1px #EFE;
+								} 
+
+  .basesearch .search.selterms span { 
+									width: 200%;
+										
+									margin:2px 4px;
+									background:#CDC;
+									
+								  }
+  
+  
+  /* ============ advanced search box: displayed floating on top of page when advanced search button is clicked ===========*/
+  /* advanced search box is child of basesearch */
+  /* advanced search select lists are populated dynamically when the 'advanced-search button is clicked */
+  /* TODO: Add static HTML for (huge) select lists and set display instead of dynamic creation
+           Rewrite advanced-search button. Use position-absoulte to place advanced search...; Could pseed things up... */
+ /*.register*/ 
+ 
+ 
+  /* help icon - mouseover/tooltip */
+  .basesearch .btnAdvCtr img {cursor:help;
+							vertical-align: top;
+							margin-left: 12px;
+							}
+				
+  /* spiiner while adb vanced search widget renders */				
+  .btnAdvWait { position: relative;
+				left:0px;
+				top:-18px;
+				background: #999;
+				width: 14px;
+				height:19px;
+				}  
+							
+/* all tooltips by class but this is the only help tooltip for now... */
+ .tooltiphid {display:none;}
+ .tooltipsho {display:block;
+			width:260px;
+			line-height:16px;	
+			 position:absolute;
+			 background:#FFF;
+			 border:solid 4px #ABA;
+			 border-radius:8px;
+			 font-weight:600;
+			 padding:6px 12px;
+			font-family:tahoma, sans-serif;
+			font-size: 12px; 
+			color: #181; 
+			 z-index:1000;
+			}
+ 
+  
+  .basesearch .btnAdv,
+  .advancedsearch .btnSave	{display:inline-block; 
+							margin-left:43%;
+							width:120px; 
+							line-height:18px;
+							max-height:20px;  /* wait-spinner appended-child height-limit */
+							color:#FFF;
+							text-shadow: 1px 1px 1px #272;
+							font-size:1.2em;
+							background:#BBB;
+							border:solid 2px #EFE;
+							text-align:center; 
+							cursor:pointer;
+							}
+
+ /* .register .advancedsearch.off{float:left; width:100%; margin-top:-12px; } */
+ 
+  .advancedsearch.off{display:none; }
+
+  .advancedsearch.on{position:absolute ;
+							display:block;
+							top:365px;
+							left:0px;
+							width:100%;
+							height:400px;
+							overflow:hidden;  /* do not push the adnaced search into the checkboxes region as we add selected serch-terms to the disply */
+							background:#DED;
+							border-bottom:solid 2px #EFE;
+							font-weight:400;
+							font-family:tahoma, sans-serif;
+							font-size: 12px; 
+							color: #181; 
+							line-height: 30px;	
+							z-index:200;
+							}
+
+							
+  .advancedsearch  .container{ /*display:none; */
+							float:left;}
+
+  .advancedsearch .advterms {position:relative;
+							height:100%;
+							float:left;
+							width:19%;
+							
+							}
+ 
+  .advterms .list {height:334px;
+				 overflow:scroll;
+				 overflow-x:hidden;
+				}			
+							
+							
+  .advterms input{width:96%; margin-left:2%;}
+
+  .advterms li {list-style-type:none;
+			 cursor:pointer;
+			 line-height:16px;
+			 }
+
+  .advterms li :hover {background:#FFF;
+					color:#000;
+					font-weight:900;
+					}
+								
+	/* advanced-search: display selected terms container - */
+  .advancedsearch  .ctrselterms{position:relative;
+								float:left;
+								width:100%;
+							} 
+							
+  .ctrselterms .seladvterms {position:relative;
+							/*height:100%; */
+							line-height:18px;
+							/*width:100%;*/
+							font-weight: 800;
+							font-family: tahoma, sans-serif;
+							font-size: 11px;
+							color: #161;
+							margin:0px 12px 6px 12px;
+							background : #CDC;
+							}							
+								
+/*Article Starts*/
+
+/*Footer Starts*/
+.footer_body{width:100%;}
+.footer{padding:0px 0 10px 0;}
+.f_body{height:57px;}
+.footer_bot{margin:0 auto;width:96%;max-width:1000px; border:1px solid #d5d5d5; border-top:0px; overflow:hidden; position:relative;}
+.f_logo{float:right;margin-top: 10px; padding-right:92px; margin-bottom:10px; }
+.f_logo a { font:normal 12px/25px  "Times New Roman";}
+.f_logo strong{display:block; font:normal 12px/24px  "Times New Roman";margin-right:5px;color:#848484;margin-bottom:5px;}
+.f_logo img{margin-left:10px;-moz-transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-o-transition:  all .5s ease-in-out;transition:  all .5s ease-in-out;float:right;}
+.f_logo img:hover{}
+
+.copyright{float:left;font:normal 12px/24px "Times New Roman";color:#333333;width:auto;margin-right:2%;margin-top: 10px; padding-left:15px;}
+.copyright span{color:#f05e22;}  
+

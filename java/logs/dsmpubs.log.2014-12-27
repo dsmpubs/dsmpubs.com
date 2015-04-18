@@ -1,0 +1,4 @@
+[INFO] 2014-12-27 01:00:00,366 DSMPubs main - main entry point.
+[INFO] 2014-12-27 01:00:00,928 DSMPubs main - uid:1
+[INFO] 2014-12-27 01:00:00,928 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Anesthesiology+AND+(General+Pharmacology+OR+Neurosurgical+Care+OR+Obstetrical+Anesthesiology+OR+Pediatric+Anesthesiology)AND+2014/12/26:2014/12/27[Publication%20Date]
+[INFO] 2014-12-27 01:00:01,724 DSMPubs main - idlist:25241060

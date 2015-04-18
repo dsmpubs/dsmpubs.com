@@ -1,0 +1,28 @@
+[INFO] 2014-12-15 01:00:02,596 DSMPubs main - main entry point.
+[INFO] 2014-12-15 01:00:03,818 DSMPubs main - uid:1
+[INFO] 2014-12-15 01:00:03,818 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Anesthesiology+AND+(General+Pharmacology+OR+Neurosurgical+Care+OR+Obstetrical+Anesthesiology+OR+Pediatric+Anesthesiology)AND+2014/12/14:2014/12/15[Publication%20Date]
+[INFO] 2014-12-15 01:00:05,324 DSMPubs main - idlist:25432153,24821196
+[INFO] 2014-12-15 01:00:05,355 DSMPubs main - idlist audited:25432153,24821196
+[INFO] 2014-12-15 01:00:05,355 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25432153,24821196&retmode=xml
+[INFO] 2014-12-15 01:00:08,918 DSMPubs alertuser - Emailed:nick@masomurray.com
+[INFO] 2014-12-15 01:00:08,918 DSMPubs main - uid:7
+[INFO] 2014-12-15 01:00:08,918 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Coronary+Artery+Disease+OR+Heart+Failure+OR+Hypertension+OR+Valvular+Disease)AND+2014/12/14:2014/12/15[Publication%20Date]
+[INFO] 2014-12-15 01:00:09,012 DSMPubs main - idlist:25456579,25456577,25449497,25449484,25449481,25449480,25449473,25449472,25449469,25442978,25442977,25440471,25304067,25304065,25260484,25245494,25227705,25213573,25200849,25189497
+[INFO] 2014-12-15 01:00:09,027 DSMPubs main - idlist audited:25456579,25456577,25449497,25449484,25449481,25449480,25449473,25449472,25449469,25442978,25442977,25440471,25304067,25304065,25260484,25245494,25227705,25213573,25200849,25189497
+[INFO] 2014-12-15 01:00:09,027 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25456579,25456577,25449497,25449484,25449481,25449480,25449473,25449472,25449469,25442978,25442977,25440471,25304067,25304065,25260484,25245494,25227705,25213573,25200849,25189497&retmode=xml
+[INFO] 2014-12-15 01:00:11,717 DSMPubs alertuser - Emailed:blindmurray@gmail.com
+[INFO] 2014-12-15 01:00:11,717 DSMPubs main - uid:8
+[INFO] 2014-12-15 01:00:11,717 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Arrhythmias+Electrophysiology+&+Pacing)AND+2014/12/14:2014/12/15[Publication%20Date]
+[INFO] 2014-12-15 01:00:11,795 DSMPubs main - idlist:25479336,25431284,25417228,25389648,25382031,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294
+[INFO] 2014-12-15 01:00:11,810 DSMPubs main - idlist audited:25479336,25431284,25417228,25389648,25382031,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294
+[INFO] 2014-12-15 01:00:11,810 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25479336,25431284,25417228,25389648,25382031,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294&retmode=xml
+[INFO] 2014-12-15 01:00:14,305 DSMPubs alertuser - Emailed:lreines@erols.com
+[INFO] 2014-12-15 01:00:14,305 DSMPubs main - uid:9
+[INFO] 2014-12-15 01:00:14,305 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Arrhythmias+Electrophysiology+&+Pacing)AND+2014/12/14:2014/12/15[Publication%20Date]
+[INFO] 2014-12-15 01:00:14,367 DSMPubs main - idlist:25479336,25431284,25417228,25389648,25382031,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294
+[INFO] 2014-12-15 01:00:14,383 DSMPubs main - idlist audited:25479336,25431284,25417228,25389648,25382031,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294
+[INFO] 2014-12-15 01:00:14,383 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25479336,25431284,25417228,25389648,25382031,25299497,25294783,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294&retmode=xml
+[INFO] 2014-12-15 01:00:16,868 DSMPubs alertuser - Emailed:gnaccarelli@hmc.psu.edu
+[INFO] 2014-12-15 01:00:16,868 DSMPubs main - uid:10
+[INFO] 2014-12-15 01:00:16,884 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Dermatology+AND+(Acne-like+Disorders+OR+Acquired+&+Inherited+Bullous+Disorders+OR+Atopic+Dermatitis+&+Other+Forms+of+Eczema+OR+Cutaneous+Signs+of+Systemic+Disease+OR+Dermatologic+&+Cosmetic+Surgery+OR+Dermatologic+Pathology+OR+Drug+Eruptions+OR+Hair+Diseases+OR+Nail+Diseases+OR+Pediatric+Skin+Diseases+(incl.+Genetic+Diseases)+OR+Photodermatology+&+Skin+Aging+OR+Pigmentary+Disorders+OR+Psoriasis+&+Other+Inflammatory+Diseases+OR+Skin+Cancers+(incl.+Melanoma+&+Lymphoma)+OR+Skin+Infections+(incl.+STDs)+OR+Urticaria+Vasculitis+&+Connective+Tissue+Disease)AND+2014/12/14:2014/12/15[Publication%20Date]
+[INFO] 2014-12-15 01:00:16,962 DSMPubs main - idlist:25494494,25494466,25494254,25494244,25494228,25494220,25493969,25493918,25493523,25493517,25493511,25493505,25493434,25493339,25493338,25493312,25493235,25493211,25492994,25492674

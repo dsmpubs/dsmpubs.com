@@ -1,0 +1,22 @@
+[INFO] 2014-11-25 01:00:00,788 DSMPubs main - main entry point.
+[INFO] 2014-11-25 01:00:01,490 DSMPubs main - uid:1
+[INFO] 2014-11-25 01:00:01,506 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Anesthesiology+AND+(General+Pharmacology+OR+Neurosurgical+Care+OR+Obstetrical+Anesthesiology+OR+Pediatric+Anesthesiology)AND+2014/11/24:2014/11/25[Publication%20Date]
+[INFO] 2014-11-25 01:00:02,972 DSMPubs main - idlist:
+[INFO] 2014-11-25 01:00:02,972 DSMPubs main - uid:7
+[INFO] 2014-11-25 01:00:02,972 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Coronary+Artery+Disease+OR+Heart+Failure+OR+Hypertension+OR+Valvular+Disease)AND+2014/11/24:2014/11/25[Publication%20Date]
+[INFO] 2014-11-25 01:00:03,331 DSMPubs main - idlist:
+[INFO] 2014-11-25 01:00:03,331 DSMPubs main - uid:8
+[INFO] 2014-11-25 01:00:03,331 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Arrhythmias+Electrophysiology+&+Pacing)AND+2014/11/24:2014/11/25[Publication%20Date]
+[INFO] 2014-11-25 01:00:03,643 DSMPubs main - idlist:25389648,25382031,25299497,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294,25114063,25109241,25108155,25104526
+[INFO] 2014-11-25 01:00:03,658 DSMPubs main - idlist audited:25389648,25382031,25299497,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294,25114063,25109241,25108155,25104526
+[INFO] 2014-11-25 01:00:03,658 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25389648,25382031,25299497,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294,25114063,25109241,25108155,25104526&retmode=xml
+[INFO] 2014-11-25 01:00:08,307 DSMPubs alertuser - Emailed:lreines@erols.com
+[INFO] 2014-11-25 01:00:08,307 DSMPubs main - uid:9
+[INFO] 2014-11-25 01:00:08,307 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Arrhythmias+Electrophysiology+&+Pacing)AND+2014/11/24:2014/11/25[Publication%20Date]
+[INFO] 2014-11-25 01:00:08,697 DSMPubs main - idlist:25389648,25382031,25299497,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294,25114063,25109241,25108155,25104526
+[INFO] 2014-11-25 01:00:08,697 DSMPubs main - idlist audited:25389648,25382031,25299497,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294,25114063,25109241,25108155,25104526
+[INFO] 2014-11-25 01:00:08,713 DSMPubs main - Fetch:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25389648,25382031,25299497,25280887,25278211,25266311,25262867,25249497,25228424,25218675,25197326,25151631,25146702,25140024,25130888,25125294,25114063,25109241,25108155,25104526&retmode=xml
+[INFO] 2014-11-25 01:00:11,708 DSMPubs alertuser - Emailed:gnaccarelli@hmc.psu.edu
+[INFO] 2014-11-25 01:00:11,708 DSMPubs main - uid:10
+[INFO] 2014-11-25 01:00:11,708 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Dermatology+AND+(Acne-like+Disorders+OR+Acquired+&+Inherited+Bullous+Disorders+OR+Atopic+Dermatitis+&+Other+Forms+of+Eczema+OR+Cutaneous+Signs+of+Systemic+Disease+OR+Dermatologic+&+Cosmetic+Surgery+OR+Dermatologic+Pathology+OR+Drug+Eruptions+OR+Hair+Diseases+OR+Nail+Diseases+OR+Pediatric+Skin+Diseases+(incl.+Genetic+Diseases)+OR+Photodermatology+&+Skin+Aging+OR+Pigmentary+Disorders+OR+Psoriasis+&+Other+Inflammatory+Diseases+OR+Skin+Cancers+(incl.+Melanoma+&+Lymphoma)+OR+Skin+Infections+(incl.+STDs)+OR+Urticaria+Vasculitis+&+Connective+Tissue+Disease)AND+2014/11/24:2014/11/25[Publication%20Date]
+[INFO] 2014-11-25 01:00:12,082 DSMPubs main - idlist:25415983,25415845,25415702,25415334,25415242,25415186,25414745,25414626,25414583,25414536,25414422,25414418,25414221,25413947,25413924,25413893,25413734,25413540,25413425,25413402

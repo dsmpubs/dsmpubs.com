@@ -1,0 +1,7 @@
+[INFO] 2014-11-11 01:00:00,444 DSMPubs main - main entry point.
+[INFO] 2014-11-11 01:00:00,959 DSMPubs main - uid:1
+[INFO] 2014-11-11 01:00:00,959 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Anesthesiology+AND+(General+Pharmacology+OR+Neurosurgical+Care+OR+Obstetrical+Anesthesiology+OR+Pediatric+Anesthesiology)AND+2014/11/10:2014/11/11[Publication%20Date]
+[INFO] 2014-11-11 01:00:01,707 DSMPubs main - idlist:
+[INFO] 2014-11-11 01:00:01,707 DSMPubs main - uid:7
+[INFO] 2014-11-11 01:00:01,707 DSMPubs main - searchIds URI:http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Cardiology+AND+(Coronary+Artery+Disease+OR+Heart+Failure+OR+Hypertension+OR+Valvular+Disease)AND+2014/11/10:2014/11/11[Publication%20Date]
+[INFO] 2014-11-11 01:00:01,832 DSMPubs main - idlist:25211226,25133793,24893265
